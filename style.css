@@ -5,7 +5,9 @@
 }
 body{
     background: url(img/Layer\ 10.jpg) 0 0/100% no-repeat;
+    font-family: 'Lato', sans-serif;
 }
+
 p,span{
     color: #555555;
 }
