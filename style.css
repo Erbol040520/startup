@@ -1,0 +1,1005 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/Layer\ 10.jpg) 0 0/100% no-repeat;
+}
+p,span{
+    color: #555555;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+#menu-checkbox,
+.toggle{
+    display: none;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu li a{
+    color: #fff;
+    align-self: center;
+    padding: 10px 15px;
+    transition: background .2s linear;
+}
+.menu li a.logo{
+    font-size: 25px;
+    margin-right: 200px;
+}
+.header-container{
+    text-align: center;
+    margin-top: 250px;
+    padding-bottom: 200px;
+    color: #fff;
+}
+.header-container h1{
+    font-size: 37px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.header-container p{
+    margin-bottom: 67px;
+    color: #fff;
+}
+.header-container a{
+    padding: 17px 32px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+
+
+
+.services-text{
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 70px;
+}
+.services-text h3{
+    margin-bottom: 60px;
+}
+.services-icon{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+/* .services-icon h4{
+    margin-top: 30px;
+} */
+.icon1 img{
+    background: url(icon/Ellipse\ 1.png) 0 0/100% no-repeat;
+    padding: 17px;
+    margin-bottom: 40px;
+}
+.icon2{
+    padding: 0 46px;
+}
+.icon2 img{
+    background: url(icon/Ellipse\ 1\ \(1\).png) no-repeat;
+    padding: 25px 19px;
+    margin-bottom: 25px;
+}
+.icon3 img{
+    background: url(icon/Ellipse\ 1\ \(1\).png) 0 0/100% no-repeat;
+    padding: 17px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.about{
+    background-color: #F8F8F8;
+}
+.agents{
+    display: flex;
+    justify-content: center;
+}
+.about-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.about-text h4{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.slesh{
+    width: 70px;
+    margin: 0 auto;
+    border: 2px solid #555555;
+} 
+.about-text p{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.agent1{
+    width: 555px;
+    padding-right: 15px;
+}
+.agent2{
+    width: 555px;
+    padding-left: 15px;
+}
+.agent-text1{
+    display: block;
+    margin-bottom: 70px;
+}
+.agent-text2{
+    display: block;
+    margin-bottom: 70px;
+}
+.agent-img{
+    display: flex;
+}
+.agent-profile1{
+    padding-right: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.agent-profile1 p{
+    padding: 0 0 100px  0;
+}
+.agent-profile2{
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+.works-portfolio{
+    margin-top: 100px;
+    text-align: center; 
+    font-size: 25px;
+}
+.works-portfolio button{
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 50px 10px;
+    padding: 1px 7px;
+}
+.works-portfolio button:hover{
+    color: #C0301C;
+}
+.posts{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+}
+
+
+
+.parallax{
+    margin-top: 100px;
+}
+.parallax-text{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: url(img/Layer\ 29\ \(1\).jpg) 0 0/100% no-repeat;
+}
+.parallax-text1{
+    display: block;
+    padding: 100px 0 0 0;
+    font-size: 25px;
+    color: #fff;
+}
+.parallax-text2{
+    display: block;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+.parallax-text a{
+    display: inline-block;
+    margin-top: 60px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.parallax-text a:hover{
+    background-color: #fff;
+    color: #C0301C;
+}
+
+
+
+.blog{
+    margin-bottom: 100px;
+}
+.blog-post1{
+    width: 80%;
+    margin: 0 auto;
+}
+.blog-post2{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.blog-text{
+    text-align: center;
+    color: #555555;
+}
+.blog-slesh{
+    width: 70px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #000;
+}
+.blog-text p{
+    margin-bottom: 50px;
+}
+.blog-post1{
+    display: flex;
+}
+.blog-post-text{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.blog-post-text-row{
+    display: flex;
+}
+.blog-post-text-date{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #555555;
+}
+.blog-post-text-date span{
+    font-size: 33px;
+}
+.blog-post-text-title{
+    padding: 10px 0 0 20px;
+    line-height: 25px;
+}
+.blog-post-text-title span{
+    font-size: 20px;
+    font-style: initial;
+    text-transform: uppercase;
+    color: #C0301C;
+}
+.blog-post-text-title p{
+    color: #000;
+}
+span.khalil{
+    color: #C0301C;
+    font-size: 16px;
+    text-transform: none;
+}
+.blog-post-text-content{
+    padding-top: 23px;
+    color: #555555;
+}
+.blog-post-button{
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.blog-post-button:hover{
+    color: #C0301C;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.clients{
+    background-color: #F8F8F8;
+    padding: 80px 0;
+}
+.clients-logo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.clients-logo-31{
+    margin-bottom: 14px;
+    padding: 0 15px;
+}
+.clients-text{
+    text-align: center;
+    font-size: 17px;
+}
+.clients-text p{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+
+
+.contact-text{
+    text-align: center;
+    padding: 70px 0;
+}
+.contact-slesh{
+    display: inline-block;
+    width: 64px;
+    border: 2px solid #555555;
+    margin: 30px 0;
+}
+.contact-info{
+    margin-right: 140px;
+}
+.contact-info img{
+    height: 20px;
+    padding-right: 10px;  
+}
+.contact-block{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.address{
+    display: flex;
+}
+.hotline{
+    display: flex;
+    padding: 35px 0;
+}
+.e-mail{
+    display: flex;
+}
+
+
+.form-massage{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 22px;
+}
+.form-massage-input1{
+    border: 2px solid #B52D1A;
+}
+input [type="text"],[placeholder="YOUR E-MAIL"],
+[placeholder="YOUR SUBJECT"],[placeholder="COMPANY NAME"]{
+    padding-left: 17px;
+}
+textarea ,[placeholder="WRITE YOUR MASSEGE"]{
+    padding: 17px 0 0 18px;
+    font-size: 16px;
+}
+.form-massage input{
+    width: 350px;
+    height: 43px;
+}
+.form-textarea textarea{
+    margin: 20px 0;
+    width: 730px;
+    height: 105px;
+}
+.form-send{
+    display: flex;
+}
+.form-send a{
+    padding: 18px 35px;
+    border: 2px solid #555555;
+    color: #808080;
+}
+.form-send a:hover{
+    background-color: #C0301C;
+    color: #fff;
+    border: 2px solid #C0301C;
+}
+.form-send p{
+    padding: 18px 0 0 35px;
+}
+.form-send span{
+    color: red;
+    padding-right: 3px;
+}
+
+
+
+
+footer{
+    background-color: #C0301C;
+    text-align: center;
+    padding: 100px 0px;
+}
+.footer-social img{
+    background: url(icon/Ellipse\ 3.png) no-repeat;
+    padding: 12px 8px 12px 10px;
+    margin-bottom: 20px; 
+}
+.footer-slesh{
+    width: 65px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+footer p{
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .toggle{
+        clear: both;
+        display: block;
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        color: #fff;
+        background-color: #A41801;
+        transition: all .1s linear ;
+    }
+    #menu-checkbox:checked + label .touch li{
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #menu-checkbox:checked + label .touch{
+        height: 360px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #A41801;
+        height: 0;
+    }
+    .menu li{
+        display: flex;
+        align-self: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a{
+        width: 955px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    .menu li a.logo{
+        margin-right: 0;
+    }
+
+
+
+
+    .header-container{
+        margin-top: 50px;
+        padding-bottom: 150px;
+    }
+    .header-container h1{
+        font-size: 30px;
+    }
+    .header-container p{
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 45px;
+    }
+    .header-container a{
+        font-size: 14px;
+        padding: 9px 12px;
+        color: #fff;
+    }
+
+
+
+    .services-text{
+        margin: 40px 0;
+    }
+    .services-text h3{
+        margin-bottom: 30px;
+    }
+    .services-icon{
+        width: 80%;
+        margin-bottom: 50px;
+        
+    }
+    .icon2{
+        padding: 0 20px;
+    }
+
+
+
+
+
+    .works-portfolio{
+        margin-top: 50px;
+    }
+
+    .about{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-text{
+        padding: 50px 0 0 0;
+    }
+    .about-text h4{
+        padding: 0;
+    }
+    .about-text p{
+        margin: 0 0 35px 0;
+    }
+    .agent-text1{
+        margin: 0 0 35px 0;
+    }
+    .agent-text2{
+        margin: 0 0 35px 0;
+    }
+    .agents{
+        flex-direction: column;
+        text-align: center;
+    }
+    .agent1{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .agent2{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .slesh{
+        display: none;
+    }
+    .agent-img{
+        flex-direction: column;
+    }
+
+    .agent-profile1{
+        padding: 0;
+    }
+    .agent-profile1 p{
+        padding: 0 0 50px 0;
+    }
+    .agent-profile2{
+        padding: 0 0 30px 0;
+    }
+   
+
+
+
+
+    .posts{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+
+
+    .parallax-text{
+        height: 190px;
+    }
+    .parallax-text1{
+        display: block;
+        padding: 30px 0 0 0;
+    }
+    .parallax-text2{
+        padding-top: 7px;
+    }
+    .parallax-text a{
+        margin-top: 20px;
+    }
+    .parallax{
+        margin-top: 30px;
+    }
+
+
+    .blog{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog-text{
+        margin-top: 25px;
+    }
+    .blog-text p{
+        margin-bottom: 25px;
+    }
+    .blog-slesh{
+        margin: 15px 0;
+        border: 1px solid #000;
+    }
+    .blog-post1{
+        width: 60%; 
+        flex-direction: column;
+    }
+    .blog-post2{
+        width: 60%;
+        flex-direction: column;
+    }
+    .blog-post-text{
+        padding: 30px 0 0 0;
+    }
+    .blog-post-button{
+        padding-bottom: 30px;
+    }
+    hr{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .contact-block {
+        display: unset;
+    }
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+    .hotline {
+        padding: 0;
+    }
+    form{
+        margin-top: 20px;  
+    }
+    .form-massage input {
+        width: 250px;
+        height: 38px;
+    }
+    .form-massage {
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+    }
+    .form-textarea{
+        width: 69%;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+    .form-send{
+        padding-top: 10px;
+    }
+    .form-send a{
+        font-size: 13px;
+        padding: 13px 17px;
+        text-align: center;
+    }
+    .form-send p{
+        padding: 12px 0 0 10px;
+    }
+    .form-textarea textarea {
+        width: 532px;
+        height: 105px;
+        margin: 0 auto;
+    }
+
+    
+
+
+    footer{
+        margin-top: 35px;
+        padding: 50px 0;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width:420px){
+    .toggle{
+        clear: both;
+        display: block;
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        color: #fff;
+        background-color: #A41801;
+        transition: all .1s linear ;
+    }
+    #menu-checkbox:checked + label .touch li{
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #menu-checkbox:checked + label .touch{
+        height: 350px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #A41801;
+        height: 0;
+    }
+    .menu li{
+        display: flex;
+        align-self: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a{
+        width: 955px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    .menu li a.logo{
+        margin-right: 0;
+    }
+
+
+
+
+    .header-container{
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+    .header-container h1{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .header-container p{
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+    .header-container a{
+        font-size: 10px;
+        padding: 5px 7px;
+        color: #fff;
+    }
+
+
+    .works-portfolio{
+        margin-top: 35px;
+    }
+
+    .services-icon{
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .services-text{
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    .services-icon{
+        margin-bottom: 50px;
+    }
+    .services-text h3{
+        margin-bottom: 20px;
+    }
+    .icon2{
+        padding: 20px 0;
+    }
+    .icon1 img{
+        margin-bottom: 15px;
+    }
+    .icon2 img{
+        margin-bottom: 15px;
+    }
+    .icon3 img{
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+    .about-text{
+        padding-top: 25px;
+    }
+    .about-text h4{
+        display: inline-block;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #000;
+    }
+    .about-text p{
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+    .agent1{
+        width: 100%;
+    }
+    .agent2{
+        width: 100%;
+    }
+    .agent-text1{
+        font-size: 11px;
+    }
+    .agent-text2{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .agent-profile1{
+        line-height: 25px;
+    }
+    .agent-profile2{
+        line-height: 25px;
+    }
+    .agent-profile1 p{
+        padding: 0 0 25px 0;
+    }
+    .agent-profile1 p{
+        padding: 0 0 25px 0;
+    }
+    .agent-profile2{
+        padding: 0 0 25px 0;
+    }
+
+
+
+
+
+    .posts{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+   
+
+
+    .parallax{
+        margin-top: 15px;
+    }
+    .parallax-text1{
+        font-size: 19px;
+        display: block;
+        padding: 3px 0 0 0;
+    }
+    .parallax-text2{
+        font-size: 19px;
+        padding-top: 0px;
+    }
+    .parallax-text{
+        height: 120px;
+    }
+    .parallax-text a{
+        margin-top: 5px;
+        padding: 5px 7px;
+    }
+
+
+
+    
+    .blog{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog-post1{
+        width: 80%; 
+        flex-direction: column;
+    }
+    .blog-post2{
+        width: 80%;
+        flex-direction: column;
+    }
+    .blog-slesh{
+        margin: 15px 0;
+        border: 0.5px solid #000;
+    }
+    .blog-text{
+        margin-top: 10px;
+    }
+    .blog-text p{
+        margin-bottom: 25px;
+    }
+    .blog-post-img img{
+        width: 300px;
+    }
+    .blog-post-text{
+        padding: 30px 0 0 0;
+    }
+    .blog-post-text-date{
+        padding: 35px 20px;
+    }
+    hr{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .blog-post-button{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+    .clients{
+        padding: 40px 0;
+    }
+
+
+
+    .contact-text{
+        padding: 35px 0;
+    }
+    .contact-info{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .hotline {
+        padding: 7px 0;
+    }
+    .form-massage {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    } 
+       .form-textarea textarea {
+        width: 250px;
+        height: 100px;
+        margin: 0 auto;
+       }
+    .form-textarea{
+        width: 67%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .form-send{
+        padding-top: 10px;
+    }
+    .form-send a{
+        font-size: 10px;
+        padding: 10px 14px;
+        height: 45px;
+        text-align: center;
+    }
+    .form-send p{
+        font-size: 13px;
+        padding: 0px 0 0 10px;
+    }
+
+
+
+
+
+    footer{
+        padding: 30px 0;
+    }
+
+
+}
+
